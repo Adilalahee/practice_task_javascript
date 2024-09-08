@@ -1,9 +1,9 @@
-// const friend='Syed Adil Mohammad,Syed Akil Mohammad,Syeda Anika Noor,Amwna Begum';
-// // const friends=friend.split(',');
-// // //  console.log(friends)
-// //  console.log(friends.join('/'));
-// //  console.log(friend.includes('a'))
-// // console.log(friend.split(' ').reverse());
+const friend='Syed Adil Mohammad,Syed Akil Mohammad,Syeda Anika Noor,Amwna Begum';
+// const friends=friend.split(',');
+// //  console.log(friends)
+//  console.log(friends.join('/'));
+//  console.log(friend.includes('a'))
+// console.log(friend.split(' ').reverse());
  
 const objectz ={
     name:'adil',
@@ -11,10 +11,10 @@ const objectz ={
     school:'gmhs'
 
 }
-// // console.log(objectz.name)
-// // console.log(objectz['age'])
-// let obj=objectz['school'];
-// console.log(obj)
+console.log(objectz.name)
+console.log(objectz['age'])
+let obj=objectz['school'];
+console.log(obj)
 
 const objj=Object.values(objectz)
 console.log(objj)
